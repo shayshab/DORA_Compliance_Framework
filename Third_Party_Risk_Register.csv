@@ -1,0 +1,46 @@
+Vendor Name,Service Category,Criticality Level,Risk Score,Contract Expiry,SLA Compliance %,Last Assessment Date,Next Review Date,Key Risks,Mitigation Actions
+Microsoft,Cloud Infrastructure,Critical,2.5,2025-12-31,99.2%,2024-07-15,2024-10-15,"Data sovereignty, service availability",Enhanced monitoring and backup providers
+AWS,Cloud Services,Critical,2.8,2024-11-30,98.8%,2024-06-01,2024-09-01,"Vendor concentration, data security",Multi-cloud strategy and security controls
+Oracle,Database Services,Critical,3.2,2025-03-31,97.5%,2024-05-20,2024-08-20,"Legacy system dependency, support",Modernization project and alternative solutions
+IBM,Mainframe Services,High,2.9,2024-10-15,98.1%,2024-04-10,2024-07-10,"Technology obsolescence, skills",Migration planning and knowledge transfer
+Cisco,Network Infrastructure,High,2.3,2025-06-30,99.5%,2024-08-01,2024-11-01,"Single point of failure, updates",Redundancy implementation and update procedures
+ServiceNow,IT Service Management,Medium,2.1,2025-01-31,99.8%,2024-07-01,2024-10-01,"Process dependency, customization",Process documentation and standardization
+
+Assessment Category,Criteria,Weight,Score (1-5),Weighted Score,Comments
+Financial Stability,Credit rating and financial health,20%,4,0.8,Strong financial position
+Operational Capability,Service delivery and performance,25%,3,0.75,Some performance issues noted
+Security Posture,Cybersecurity controls and compliance,20%,4,0.8,Strong security framework
+Business Continuity,Disaster recovery and backup procedures,15%,3,0.45,Improvement areas identified
+Geographic Risk,Political and operational stability,10%,4,0.4,Low geographic risk
+Regulatory Compliance,Adherence to relevant regulations,10%,4,0.4,Good compliance record
+Total Score,,100%,,3.6,Medium-High risk level
+
+Contract Element,DORA Requirement,Current Status,Gap Analysis,Required Action
+Data Protection,Art. 30 - Data protection requirements,Partially compliant,Enhanced data protection clauses needed,Update contract with GDPR alignment
+Audit Rights,Art. 30 - Right to audit ICT third-party providers,Limited audit rights,Full audit rights not established,Negotiate comprehensive audit clauses
+Incident Notification,Art. 30 - Incident reporting requirements,Basic notification only,Detailed incident reporting missing,Add specific incident notification timelines
+Exit Strategy,Art. 28 - Exit strategies for critical providers,No exit clause,Exit planning not addressed,Develop and include exit strategy provisions
+Subcontracting,Art. 30 - Subcontracting approval and oversight,Limited visibility,Subcontractor management gaps,Require approval for critical subcontractors
+Performance Monitoring,Art. 30 - Performance and availability monitoring,Basic SLAs only,Enhanced monitoring needed,Add detailed performance metrics and reporting
+Business Continuity,Art. 30 - Business continuity and disaster recovery,General BC clauses,Specific recovery requirements missing,Include detailed BC and DR requirements
+Termination Rights,Art. 30 - Termination rights and procedures,Standard termination,Enhanced termination rights needed,Add breach-based termination clauses
+
+Due Diligence Area,Assessment Criteria,Risk Level,Status,Next Action
+Legal and Regulatory,Regulatory compliance and legal standing,Low,Complete,Annual review scheduled
+Financial Stability,Financial health and credit worthiness,Medium,Complete,Quarterly monitoring
+Operational Capability,Service delivery and operational maturity,Medium,In Progress,Complete operational assessment
+Information Security,Cybersecurity controls and risk management,High,In Progress,Security audit required
+Data Management,Data handling and protection capabilities,High,Not Started,Data protection assessment needed
+Business Continuity,Disaster recovery and business continuity,Medium,Not Started,BC capability assessment required
+Geographic Risk,Political and operational location risks,Low,Complete,No action required
+Concentration Risk,Dependency and concentration analysis,High,In Progress,Dependency mapping in progress
+
+Exit Strategy Component,Description,Current Status,Target Completion,Owner
+Data Migration Plan,Plan for extracting and migrating data,Not Started,2024-12-31,IT Operations Manager
+Alternative Provider,Identification of alternative service providers,In Progress,2024-11-30,Vendor Risk Manager
+Transition Timeline,Detailed timeline for service transition,Not Started,2024-12-15,Program Management Office
+Knowledge Transfer,Documentation and knowledge transfer plan,Not Started,2025-01-15,IT Operations Manager
+Contract Termination,Legal procedures for contract termination,In Progress,2024-10-31,Legal Department
+Service Continuity,Plan to maintain service during transition,Not Started,2024-12-31,Business Continuity Manager
+Cost Analysis,Financial impact analysis of exit scenario,Not Started,2024-11-15,Finance Department
+Stakeholder Communication,Communication plan for exit scenario,Not Started,2024-12-15,Communications Manager

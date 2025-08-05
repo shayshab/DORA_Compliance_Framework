@@ -1,0 +1,46 @@
+Article,Title,Key Requirements,Implementation Timeline,Critical Success Factors
+Article 1,Subject matter and scope,"Applies to financial entities, defines scope of regulation",Immediate,Understanding scope and applicability
+Article 2,Definitions,"Defines key terms: ICT risk, digital operational resilience, etc.",Immediate,Common understanding of terminology
+Article 6,ICT risk management framework,"Establish comprehensive framework, board oversight, policies",By Jan 2025,Strong governance and leadership commitment
+Article 8,ICT risk management measures,"Asset management, change management, configuration",By Jan 2025,Robust operational processes
+Article 11,Business continuity,"BCP integration, backup strategies, recovery procedures",By Jan 2025,Tested recovery capabilities
+Article 17,ICT-related incident management,"Incident response framework, classification, procedures",By Jan 2025,24/7 response capability
+Article 18,Classification of ICT-related incidents,"Major incident classification criteria and reporting",By Jan 2025,Clear escalation procedures
+Article 19,Reporting of major ICT-related incidents,"Report to supervisory authorities within specific timeframes",By Jan 2025,Automated reporting capability
+Article 20,Harmonisation of reporting content,"Standardized incident reporting format and content",By Jan 2025,Consistent reporting across entities
+Article 24,General requirements for digital operational resilience testing,"DORT strategy, testing program, various testing types",By Jan 2025,Comprehensive testing framework
+Article 25,Testing of ICT systems,"Vulnerability testing, penetration testing, scenario testing",By Jan 2025,Regular testing schedule
+Article 26,Advanced testing,"TLPT requirements for larger entities",By 2026,Advanced testing capabilities
+Article 28,General principles for ICT third-party risk,"Framework for managing third-party ICT risks",By Jan 2025,Vendor risk management program
+Article 30,Key principles for a sound management of ICT third-party risk,"Due diligence, contract management, exit strategies",By Jan 2025,Enhanced vendor oversight
+Article 54,Supervisory powers and tools,"Supervisory reporting and audit capabilities",By Jan 2025,Regulatory relationship management
+Article 64,Entry into force and application,"Regulation applies from January 17, 2025",Jan 17 2025,Full compliance readiness
+
+Risk Domain,Key Controls,Implementation Priority,Dependencies
+ICT Risk Management,Risk framework and governance,Critical,Board engagement and resources
+ICT Risk Management,Asset and change management,High,Asset discovery tools
+ICT Risk Management,Configuration and patch management,High,Security tools and processes
+Incident Management,Incident response procedures,Critical,24/7 operational capability
+Incident Management,Incident classification system,Critical,Clear escalation matrix
+Incident Management,Regulatory reporting capability,Critical,Automated reporting systems
+Resilience Testing,Testing strategy and program,High,Testing tools and expertise
+Resilience Testing,Regular vulnerability testing,High,Security testing tools
+Resilience Testing,Advanced testing capabilities,Medium,External testing providers
+Third-party Risk,Vendor risk framework,High,Vendor management system
+Third-party Risk,Critical provider oversight,Critical,Enhanced due diligence
+Third-party Risk,Contract management,High,Legal and procurement support
+
+Phase,Timeline,Key Deliverables,Success Criteria
+Phase 1: Foundation,Sept-Oct 2024,"Framework development, governance setup, critical gaps identified",Board approval and resource allocation
+Phase 2: Core Implementation,Nov-Dec 2024,"Risk management processes, incident response, basic testing",Operational capabilities established
+Phase 3: Advanced Capabilities,Jan-Mar 2025,"Advanced testing, enhanced monitoring, full compliance",Regulatory audit readiness
+Phase 4: Optimization,Apr-Jun 2025,"Process refinement, automation, continuous improvement",Mature operational resilience
+
+Milestone,Target Date,Owner,Dependencies,Status
+Board Approval of Framework,2024-10-15,Chief Risk Officer,Framework development complete,Not Started
+Asset Inventory Complete,2024-10-31,IT Asset Manager,Asset discovery tools deployed,Not Started
+Incident Response Procedures,2024-11-15,CISO,Response team established,Not Started
+Regulatory Reporting Capability,2024-11-30,Compliance Officer,Reporting system implemented,Not Started
+Testing Program Operational,2024-12-15,IT Security Manager,Testing tools and procedures ready,Not Started
+Third-party Risk Assessment,2024-12-31,Vendor Risk Manager,Vendor inventory and classification complete,Not Started
+Full DORA Compliance,2025-01-17,Program Management Office,All components implemented and tested,Not Started

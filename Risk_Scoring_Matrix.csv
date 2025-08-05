@@ -1,0 +1,26 @@
+Risk Level,Risk Score,Description,Response Required,Escalation Level,Management Attention
+Critical,4,"Immediate threat to business operations, regulatory breach imminent",Immediate action required within 24 hours,Board/CEO,Executive Management
+High,3,"Significant risk to operations or compliance, potential regulatory impact",Action required within 1 week,Senior Management,Division Head
+Medium,2,"Moderate risk with manageable impact on operations",Action required within 1 month,Department Manager,Department Level
+Low,1,"Minor risk with limited operational impact",Action required within 3 months,Team Lead,Team Level
+
+Risk Category,Risk Factor,Weight,Scoring Criteria
+Financial Impact,Revenue Impact,25%,"Critical: >€10M, High: €1-10M, Medium: €100K-1M, Low: <€100K"
+Operational Impact,Service Disruption,20%,"Critical: >24hrs, High: 4-24hrs, Medium: 1-4hrs, Low: <1hr"
+Regulatory Impact,Compliance Breach,20%,"Critical: Major breach, High: Minor breach, Medium: Warning, Low: No impact"
+Reputational Impact,Brand Damage,15%,"Critical: National media, High: Industry press, Medium: Local impact, Low: No impact"
+Customer Impact,Customer Affected,10%,"Critical: >100K customers, High: 10K-100K, Medium: 1K-10K, Low: <1K"
+Data Impact,Data Breach,10%,"Critical: Personal/Financial, High: Business Critical, Medium: Internal, Low: Public"
+
+Status,Definition,Color Code,Action Required
+Not Started,No work has begun on this requirement,Red,Immediate planning required
+Planning,Requirements analysis and planning in progress,Orange,Continue planning activities
+In Progress,Implementation activities underway,Yellow,Monitor progress closely
+Completed,Requirement fully implemented and tested,Green,Maintain and monitor
+Deferred,Implementation postponed to later phase,Purple,Review deferral reasoning
+
+Priority,Definition,Target Timeframe,Resource Allocation
+Critical,Must be completed to avoid regulatory breach,Within 1 month,Highest priority resources
+High,Important for compliance and risk reduction,Within 3 months,Dedicated resources
+Medium,Needed for complete compliance framework,Within 6 months,Shared resources
+Low,Nice to have improvements,Within 12 months,Available resources

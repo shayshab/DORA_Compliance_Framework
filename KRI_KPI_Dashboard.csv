@@ -1,0 +1,43 @@
+KRI Name,Category,Metric,Threshold - Green,Threshold - Yellow,Threshold - Red,Frequency,Owner,Data Source
+System Availability,Operational,Percentage uptime,>99.9%,99.5%-99.9%,<99.5%,Daily,IT Operations,Monitoring tools
+Mean Time to Recovery,Operational,Hours,<2 hours,2-8 hours,>8 hours,Per incident,IT Operations,Incident management system
+Security Incidents,Security,Number per month,<5,5-15,>15,Monthly,CISO,SIEM system
+Patch Compliance,Security,Percentage of systems,>95%,90%-95%,<90%,Weekly,IT Security,Patch management system
+Vendor Risk Score,Third-party,Weighted average,<2.0,2.0-3.0,>3.0,Monthly,Vendor Risk Manager,Vendor risk system
+Critical Vendor SLA Breaches,Third-party,Number per quarter,0,1-2,>2,Quarterly,Vendor Risk Manager,Contract management system
+Backup Success Rate,Continuity,Percentage successful,>99%,95%-99%,<95%,Daily,IT Operations,Backup system
+Recovery Test Success,Continuity,Percentage successful,>95%,90%-95%,<90%,Quarterly,Business Continuity Manager,BCP testing results
+Regulatory Findings,Compliance,Number of findings,0,1-2,>2,Per audit,Compliance Officer,Audit reports
+Training Completion,Training,Percentage of staff,>95%,90%-95%,<90%,Quarterly,HR Manager,Training system
+
+KPI Name,Category,Metric,Target,Current,Trend,Frequency,Owner
+DORA Compliance Score,Overall,Percentage complete,100%,25%,Increasing,Monthly,Program Management Office
+ICT Risk Assessment Coverage,Risk Management,Percentage of systems assessed,100%,40%,Increasing,Quarterly,IT Risk Manager
+Incident Response Time,Incident Management,Average minutes to initial response,<30 min,45 min,Improving,Monthly,CISO
+Vulnerability Remediation Time,Security,Average days to remediate critical vulnerabilities,<7 days,14 days,Stable,Monthly,IT Security Manager
+Third-party Risk Assessments,Third-party Risk,Percentage of critical vendors assessed,100%,60%,Increasing,Quarterly,Vendor Risk Manager
+Business Continuity Test Coverage,Continuity,Percentage of critical processes tested,100%,30%,Increasing,Semi-annually,Business Continuity Manager
+Staff Training Completion,Training,Percentage of required training completed,100%,20%,Increasing,Quarterly,HR Manager
+Regulatory Reporting Timeliness,Compliance,Percentage of reports submitted on time,100%,85%,Improving,Monthly,Compliance Officer
+
+Stakeholder,Role,RACI - ICT Risk Management,RACI - Incident Management,RACI - Testing,RACI - Third-party Risk,Communication Frequency
+Board of Directors,Governance,A,I,I,I,Quarterly
+CEO,Executive Leadership,A,A,I,A,Monthly
+Chief Risk Officer,Risk Oversight,R,C,C,R,Weekly
+CISO,Security Leadership,C,R,R,C,Daily
+CTO,Technology Leadership,C,C,R,C,Weekly
+IT Risk Manager,Risk Management,R,C,C,C,Daily
+IT Operations Manager,Operations,C,R,C,I,Daily
+Vendor Risk Manager,Vendor Management,I,I,I,R,Weekly
+Compliance Officer,Compliance,C,C,I,C,Weekly
+Business Continuity Manager,Continuity,C,C,R,I,Weekly
+
+Report Name,Frequency,Audience,Content,Owner,Distribution Method
+DORA Compliance Dashboard,Weekly,Senior Management,"Overall compliance status, key metrics, risks",Program Management Office,Executive portal
+ICT Risk Report,Monthly,Board and Executive Team,"Risk landscape, key risks, mitigation status",Chief Risk Officer,Board pack
+Incident Management Report,Monthly,Senior Management,"Incident trends, response metrics, lessons learned",CISO,Management meeting
+Testing Results Report,Quarterly,IT Leadership,"Testing outcomes, vulnerabilities, remediation",IT Security Manager,IT governance meeting
+Third-party Risk Report,Quarterly,Risk Committee,"Vendor risk landscape, critical vendors, issues",Vendor Risk Manager,Risk committee meeting
+Regulatory Reporting,As required,Supervisory Authorities,"Major incidents, compliance status, material changes",Compliance Officer,Regulatory portal
+
+R = Responsible (does the work),A = Accountable (signs off),C = Consulted (provides input),I = Informed (kept updated)
